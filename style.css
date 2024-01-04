@@ -1,0 +1,163 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+  
+ body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+ }
+ .container {
+    display:flex;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 20px 20px 40px rgba(97,63,0,0.4);
+    border-radius: 0 20px 20px 0;
+ }
+ 
+ section {
+    padding: 18px 24px;
+ }
+ section.left {
+   flex: 0.5;
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+    text-align: center;
+    padding: 26px 60px;
+    border-radius: 20px;
+    
+ }
+ 
+ section.left h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 26px;  
+    opacity: 0.8;
+ }
+ .circle {
+    padding: 24px;
+    color: hsl(0, 0%, 100%);
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+ }
+
+ .circle .spanOne {
+    display: block;
+    font-size: 70px;
+    font-weight: 800;
+   
+ }
+ .circle .spanTwo {
+    font-size: 12px;
+    opacity: 0.5; 
+ }
+ section.left h3 {
+    margin-top: 28px;
+    margin-bottom: 12px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    font-size: 16px;
+ }
+ section.left p {
+   color: hsl(0, 0%, 100%);
+   font-size: 12px;
+   font-weight: 200;
+   opacity: 0.7;
+ }
+ 
+
+ .scoreLine {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 16px;
+   border-radius: 8px;
+ }
+ .scoreLine img {
+   display: inline-block;
+   vertical-align: middle;
+   
+ }
+.scoreName {
+   margin-left: 12px;
+   
+}
+.imgP {
+   display: flex;
+}
+section.right h2 {
+   font-size: 16px;
+   margin-bottom: 20px;
+   color: hsl(224, 30%, 27%);
+}
+.score-breakdown {
+   display: flex;
+   flex-direction: column;
+   gap: 16px
+}
+button {
+   padding: 14px 100px;
+   font-size: 12px;
+   font-weight: 700;
+   margin-top: 42px;
+   border-radius: 22px;
+   background-color: hsl(224, 30%, 27%);
+   outline: none;
+   border: none;
+   color: hsl(0, 0%, 100%);
+   cursor: pointer;
+}
+button:hover {
+   background: linear-gradient(to right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.one {
+   background-color:  hsla(0, 100%, 67%, 0.1);
+}
+.two {
+   background-color: hsla(39, 100%, 56%, 0.1);
+}
+.three {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.four {
+   background-color: hsla(234, 85%, 45%, 0.1);
+}
+.Reaction{
+   color: hsl(0, 100%, 67%);
+}
+.Memory {
+   color:  hsl(39, 100%, 56%);
+}
+.Verbal {
+   color:  hsl(166, 100%, 37%);
+}
+.Visual {
+   color:  hsl(234, 85%, 45%);
+}
+.score {
+   color: hsl(224, 30%, 27%);
+   font-weight: 800;
+}
+.scoreLine span {
+   opacity: 0.5;
+}
+
+@media (max-width: 375px) {
+   .container {
+      flex-direction: column;
+      max-width: 300px;
+   }
+}
