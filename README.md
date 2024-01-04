@@ -9,7 +9,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   
   - [Links]
   (- Solution URL: (https://github.com/emjayruka/Result-Summary.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](emjayruka-result-summary.netlify.app)
 )
 
 - [My process]
